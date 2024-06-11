@@ -12,11 +12,11 @@
         "dataset_definition": {
           "__typename": "S3CreateDatasetDefinitionOutput",
           "datasetSourceType": "S3",
-          "name": "signup_outcomes.csv",
+          "name": "user_activity_output.csv",
           "description": null,
           "s3ExecutionContext": {
             "__typename": "S3ExecutionContext",
-            "s3Uri": "s3://${bucket}/${prefix}/data/raw/signup_outcomes.csv",
+            "s3Uri": "s3://${bucket}/${prefix}/data/raw/user_activity_output.csv",
             "s3ContentType": "csv",
             "s3HasHeader": true
           }

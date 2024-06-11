@@ -12,11 +12,11 @@
         "dataset_definition": {
           "__typename": "S3CreateDatasetDefinitionOutput",
           "datasetSourceType": "S3",
-          "name": "signup_attempts.csv",
+          "name": "user_activity_input.csv",
           "description": null,
           "s3ExecutionContext": {
             "__typename": "S3ExecutionContext",
-            "s3Uri": "s3://sagemaker-us-east-2-965425568475/amazon-fraud-detector/data/raw/signup_attempts.csv",
+            "s3Uri": "s3://sagemaker-us-east-2-965425568475/amazon-fraud-detector/data/raw/user_activity_input.csv",
             "s3ContentType": "csv",
             "s3HasHeader": true
           }
